@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flashcard Game</title>
+  <script src="./script.js" defer></script>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <h1 class="header">Flashcard Game</h1>
+    <div class="flashcard" onclick="flipCard()">
+        <div class="card">
+            <div class="front">
+                <h2 class="question"></h2>
+            </div>
+            <div class="back">
+                <h2 class="answer"></h2>
+            </div>
+        </div>
+    </div>
+    <div>
+      <button class="next-card">Next Card</button>
+      <button class="reset-game">Reset Game</button>
+    </div>
+<script src="scripts.js"></script>
+</body>
+</html>
